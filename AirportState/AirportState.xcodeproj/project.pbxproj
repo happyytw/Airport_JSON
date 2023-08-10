@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B263FC52A70B83700DB427F /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B263FC42A70B83700DB427F /* AirportData.swift */; };
+		2B263FCA2A716D6F00DB427F /* SearchCitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B263FC82A716D6F00DB427F /* SearchCitiesTableViewCell.swift */; };
+		2B263FCB2A716D6F00DB427F /* SearchCitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B263FC92A716D6F00DB427F /* SearchCitiesTableViewCell.xib */; };
+		2B374D3F2A812782006DA965 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B374D3D2A812782006DA965 /* WeatherTableViewCell.swift */; };
+		2B374D402A812782006DA965 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B374D3E2A812782006DA965 /* WeatherTableViewCell.xib */; };
+		2B5495CE2A7BF6C3007369D7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2B5495CD2A7BF6C3007369D7 /* Lottie */; };
+		2B5495DC2A7F8170007369D7 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5495DB2A7F8170007369D7 /* WeatherViewController.swift */; };
+		2B913CF02A6E98770028D67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913CEF2A6E98770028D67B /* AppDelegate.swift */; };
+		2B913CF22A6E98770028D67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913CF12A6E98770028D67B /* SceneDelegate.swift */; };
+		2B913CF42A6E98770028D67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913CF32A6E98770028D67B /* ViewController.swift */; };
+		2B913CF72A6E98770028D67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B913CF52A6E98770028D67B /* Main.storyboard */; };
+		2B913CF92A6E98790028D67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B913CF82A6E98790028D67B /* Assets.xcassets */; };
+		2B913CFC2A6E98790028D67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B913CFA2A6E98790028D67B /* LaunchScreen.storyboard */; };
+		2B913D0D2A6EE8020028D67B /* DepartureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913D0B2A6EE8020028D67B /* DepartureTableViewCell.swift */; };
+		2B913D0E2A6EE8020028D67B /* DepartureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B913D0C2A6EE8020028D67B /* DepartureTableViewCell.xib */; };
+		2B913D142A6F839E0028D67B /* KoreaConstData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913D132A6F839E0028D67B /* KoreaConstData.swift */; };
+		2B913D172A6F849A0028D67B /* CurrentFlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913D162A6F849A0028D67B /* CurrentFlightData.swift */; };
+		2B913D1F2A6F8FAD0028D67B /* XMLParsing in Frameworks */ = {isa = PBXBuildFile; productRef = 2B913D1E2A6F8FAD0028D67B /* XMLParsing */; };
+		2B913D212A6FDA260028D67B /* DepartureSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B913D202A6FDA260028D67B /* DepartureSearchViewController.swift */; };
+		2BBFFCAD2A7BF62D00989C2F /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFFCAC2A7BF62D00989C2F /* animation.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B263FC42A70B83700DB427F /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		2B263FC82A716D6F00DB427F /* SearchCitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesTableViewCell.swift; sourceTree = "<group>"; };
+		2B263FC92A716D6F00DB427F /* SearchCitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCitiesTableViewCell.xib; sourceTree = "<group>"; };
+		2B374D3D2A812782006DA965 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		2B374D3E2A812782006DA965 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		2B5495DB2A7F8170007369D7 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		2B5495DD2A7F93AE007369D7 /* AirportState.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirportState.entitlements; sourceTree = "<group>"; };
+		2B913CEC2A6E98770028D67B /* AirportState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B913CEF2A6E98770028D67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B913CF12A6E98770028D67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B913CF32A6E98770028D67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B913CF62A6E98770028D67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B913CF82A6E98790028D67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B913CFB2A6E98790028D67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B913CFD2A6E98790028D67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B913D0B2A6EE8020028D67B /* DepartureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureTableViewCell.swift; sourceTree = "<group>"; };
+		2B913D0C2A6EE8020028D67B /* DepartureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepartureTableViewCell.xib; sourceTree = "<group>"; };
+		2B913D132A6F839E0028D67B /* KoreaConstData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaConstData.swift; sourceTree = "<group>"; };
+		2B913D162A6F849A0028D67B /* CurrentFlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentFlightData.swift; sourceTree = "<group>"; };
+		2B913D202A6FDA260028D67B /* DepartureSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureSearchViewController.swift; sourceTree = "<group>"; };
+		2BBFFCAC2A7BF62D00989C2F /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B913CE92A6E98770028D67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B913D1F2A6F8FAD0028D67B /* XMLParsing in Frameworks */,
+				2B5495CE2A7BF6C3007369D7 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B913CE32A6E98770028D67B = {
+			isa = PBXGroup;
+			children = (
+				2B913CEE2A6E98770028D67B /* AirportState */,
+				2B913CED2A6E98770028D67B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B913CED2A6E98770028D67B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B913CEC2A6E98770028D67B /* AirportState.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B913CEE2A6E98770028D67B /* AirportState */ = {
+			isa = PBXGroup;
+			children = (
+				2B5495DD2A7F93AE007369D7 /* AirportState.entitlements */,
+				2B913CEF2A6E98770028D67B /* AppDelegate.swift */,
+				2B913CF12A6E98770028D67B /* SceneDelegate.swift */,
+				2B913D152A6F847B0028D67B /* Model */,
+				2B913D192A6F85690028D67B /* View */,
+				2B913D182A6F85560028D67B /* Controller */,
+				2B913CF52A6E98770028D67B /* Main.storyboard */,
+				2B913CF82A6E98790028D67B /* Assets.xcassets */,
+				2B913CFA2A6E98790028D67B /* LaunchScreen.storyboard */,
+				2B913CFD2A6E98790028D67B /* Info.plist */,
+				2BBFFCAC2A7BF62D00989C2F /* animation.json */,
+			);
+			path = AirportState;
+			sourceTree = "<group>";
+		};
+		2B913D152A6F847B0028D67B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B913D132A6F839E0028D67B /* KoreaConstData.swift */,
+				2B913D162A6F849A0028D67B /* CurrentFlightData.swift */,
+				2B263FC42A70B83700DB427F /* AirportData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B913D182A6F85560028D67B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B913CF32A6E98770028D67B /* ViewController.swift */,
+				2B913D202A6FDA260028D67B /* DepartureSearchViewController.swift */,
+				2B5495DB2A7F8170007369D7 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B913D192A6F85690028D67B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B913D0B2A6EE8020028D67B /* DepartureTableViewCell.swift */,
+				2B913D0C2A6EE8020028D67B /* DepartureTableViewCell.xib */,
+				2B263FC82A716D6F00DB427F /* SearchCitiesTableViewCell.swift */,
+				2B263FC92A716D6F00DB427F /* SearchCitiesTableViewCell.xib */,
+				2B374D3D2A812782006DA965 /* WeatherTableViewCell.swift */,
+				2B374D3E2A812782006DA965 /* WeatherTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B913CEB2A6E98770028D67B /* AirportState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B913D002A6E98790028D67B /* Build configuration list for PBXNativeTarget "AirportState" */;
+			buildPhases = (
+				2B913CE82A6E98770028D67B /* Sources */,
+				2B913CE92A6E98770028D67B /* Frameworks */,
+				2B913CEA2A6E98770028D67B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportState;
+			packageProductDependencies = (
+				2B913D1E2A6F8FAD0028D67B /* XMLParsing */,
+				2B5495CD2A7BF6C3007369D7 /* Lottie */,
+			);
+			productName = AirportState;
+			productReference = 2B913CEC2A6E98770028D67B /* AirportState.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B913CE42A6E98770028D67B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2B913CEB2A6E98770028D67B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B913CE72A6E98770028D67B /* Build configuration list for PBXProject "AirportState" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B913CE32A6E98770028D67B;
+			packageReferences = (
+				2B913D1D2A6F8FAD0028D67B /* XCRemoteSwiftPackageReference "XMLParsing" */,
+				2B5495CC2A7BF6C3007369D7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 2B913CED2A6E98770028D67B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B913CEB2A6E98770028D67B /* AirportState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B913CEA2A6E98770028D67B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B263FCB2A716D6F00DB427F /* SearchCitiesTableViewCell.xib in Resources */,
+				2B913CFC2A6E98790028D67B /* LaunchScreen.storyboard in Resources */,
+				2B374D402A812782006DA965 /* WeatherTableViewCell.xib in Resources */,
+				2B913CF92A6E98790028D67B /* Assets.xcassets in Resources */,
+				2BBFFCAD2A7BF62D00989C2F /* animation.json in Resources */,
+				2B913D0E2A6EE8020028D67B /* DepartureTableViewCell.xib in Resources */,
+				2B913CF72A6E98770028D67B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B913CE82A6E98770028D67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B913D172A6F849A0028D67B /* CurrentFlightData.swift in Sources */,
+				2B913CF42A6E98770028D67B /* ViewController.swift in Sources */,
+				2B374D3F2A812782006DA965 /* WeatherTableViewCell.swift in Sources */,
+				2B913CF02A6E98770028D67B /* AppDelegate.swift in Sources */,
+				2B913D212A6FDA260028D67B /* DepartureSearchViewController.swift in Sources */,
+				2B5495DC2A7F8170007369D7 /* WeatherViewController.swift in Sources */,
+				2B913D0D2A6EE8020028D67B /* DepartureTableViewCell.swift in Sources */,
+				2B913D142A6F839E0028D67B /* KoreaConstData.swift in Sources */,
+				2B263FCA2A716D6F00DB427F /* SearchCitiesTableViewCell.swift in Sources */,
+				2B263FC52A70B83700DB427F /* AirportData.swift in Sources */,
+				2B913CF22A6E98770028D67B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B913CF52A6E98770028D67B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B913CF62A6E98770028D67B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B913CFA2A6E98790028D67B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B913CFB2A6E98790028D67B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B913CFE2A6E98790028D67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B913CFF2A6E98790028D67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B913D012A6E98790028D67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportState/AirportState.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM2XMG9QM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirportState/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.AirportState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B913D022A6E98790028D67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportState/AirportState.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HM2XMG9QM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirportState/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.AirportState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B913CE72A6E98770028D67B /* Build configuration list for PBXProject "AirportState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B913CFE2A6E98790028D67B /* Debug */,
+				2B913CFF2A6E98790028D67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B913D002A6E98790028D67B /* Build configuration list for PBXNativeTarget "AirportState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B913D012A6E98790028D67B /* Debug */,
+				2B913D022A6E98790028D67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B5495CC2A7BF6C3007369D7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		2B913D1D2A6F8FAD0028D67B /* XCRemoteSwiftPackageReference "XMLParsing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ShawnMoore/XMLParsing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B5495CD2A7BF6C3007369D7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B5495CC2A7BF6C3007369D7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		2B913D1E2A6F8FAD0028D67B /* XMLParsing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B913D1D2A6F8FAD0028D67B /* XCRemoteSwiftPackageReference "XMLParsing" */;
+			productName = XMLParsing;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B913CE42A6E98770028D67B /* Project object */;
+}
